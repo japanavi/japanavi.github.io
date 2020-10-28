@@ -23,7 +23,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	scroll-behavior: smooth;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -134,7 +135,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+		color: #000;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -2200,7 +2201,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			height: 20em;
+			height: 30em;
 			border-radius: 0;
 		}
 
@@ -2246,7 +2247,21 @@ input, select, textarea {
 				}
 
 	dl {
-		margin: 0 0 2.25em 0;
+		display: block;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	dt {
+  		display: block;
+		color: black;
+	}
+
+	dd {
+		  display: block;
+		  margin-left: 40px;
 	}
 
 /* Actions */
@@ -2772,7 +2787,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: #fff;
 				}
 
 		#header > nav {
@@ -2835,6 +2850,11 @@ input, select, textarea {
 
 		#main > section:first-child {
 			border-top: 0;
+		}
+
+		#main > nav > .toc {
+			position:sticky;,
+			align-self: start;
 		}
 
 /* Footer */
@@ -2904,7 +2924,7 @@ input, select, textarea {
 		/* Main */
 
 			#main > section > .container {
-				padding: 4em 0 2em 0;
+				padding: 1em 0 2em 0;
 			}
 
 	}
