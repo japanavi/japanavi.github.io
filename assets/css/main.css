@@ -24,11 +24,13 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	scroll-behavior: smooth;}
+	scroll-behavior: smooth;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+}
 
 body {
 	line-height: 1;
@@ -74,6 +76,25 @@ input, select, textarea {
 }
 
 /* Basic */
+	#myBtn {
+	  display: none;
+	  position: fixed;
+	  bottom: 1em;
+	  left: 1em;
+	  z-index: 99;
+	  font-size: 1em;
+	  border-style: solid;
+	  outline: none;
+	  background-color: white;
+	  color: black;
+	  cursor: pointer;
+	  padding: 0.75em;
+	  border-radius: 0.5em;
+	}
+
+	#myBtn:hover {
+	  background-color: #555;
+	}
 
 	html {
 		box-sizing: border-box;
@@ -2201,7 +2222,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			height: 30em;
+			height: 25em;
 			border-radius: 0;
 		}
 

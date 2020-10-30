@@ -11,6 +11,8 @@
 	</head>
 	<body class="is-preload">
 
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 		<!-- Header -->
 			<section id="header">
 				<header>
@@ -26,7 +28,7 @@
 						<li><a href="index.html">About</a></li>
 						<li><a href="experience.html" class="active">Experience</a></li>
 						<li><a href="projects.html">Projects</a></li>
-						<li><a href="cv/apanavicius_j_cv.pdf" target="_blank">CV</a></li>
+						<li><a href="apanavicius_j_cv.pdf" target="_blank">CV</a></li>
 					</ul>
 				</nav>
 				<footer>
@@ -38,7 +40,6 @@
 					</ul>
 				</footer>
 			</section>
-
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -50,7 +51,6 @@
 					            <div class="container">
 									<header class="major">
 										<h2>Experience</h2>
-										<p>A detailed overview of my experience.</p>
 										<hr>
 										<style>
 										h3, h4 {
@@ -58,7 +58,7 @@
 										}
 										</style>
 									</header>
-									<nav class="toc">
+									<nav id="toc">
 										<h4>Table of Contents</h4>
 										<dl>
 											<dd><a href="#education">Education</a></dd>
@@ -73,7 +73,7 @@
 										<section id="education">
 										<h3>Education</h3>
 										<dl>
-											<dt>Indiana University</dt>
+											<dt>Indiana University Bloomington</dt>
 											<dd>2015 - 2019</dd>
 											<dd>B.S. in Physics <em>with Honors & Distinction</em></dd>
 											<dd>B.S. in Mathematics <i>with Distinction</i></dd>
@@ -119,7 +119,7 @@
 											<dt>Keras</dt>
 											<dt>scikit-learn</dt>
 											<dt>Linux</dt>
-											<dt>Command Line</dt>
+											<dt>Command Line/Bash</dt>
 											<dt>SQL</dt>
 										</dl>
 										</section>
@@ -164,10 +164,13 @@
 										<p>All courses were taken at Indiana University Bloomington, unless specified.</p>
 										<h4>Machine Learning</h4>
 										<dl>
-											<dt>Deep Learning Specialization</dt>
-											<dd>Coursera</dd>
-											<dt>DeepLearning.AI TensorFlow Developer</dt>
-											<dd>Coursera</dd>
+											<dt>Deep Learning by DeepLearning.AI on Coursera</dt>
+											<dd>Certificate earned on October 1, 2020</dd>
+											<dd><a href="https://coursera.org/share/8e8df222c8c0e0970c2ebc247a014723" target="_blank">Certificate</a></dd>
+
+											<dt>DeepLearning.AI TensorFlow Developer by DeepLearning.AI on Coursera</dt>
+											<dd>Certificate earned on October 27, 2020</dd>
+											<dd><a href="https://coursera.org/share/3119b6745615664e999beab4d5ad3a01" target="_blank">Certificate</a></dd>
 										</dl>
 
 										<h4>Computing</h4>
@@ -260,7 +263,7 @@
 					</div>
 
 				<!-- Footer -->
-					<section id="footer">
+					<!-- <section id="footer">
 						<div class="container">
 							<ul class="copyright">
 								<li>&copy; Untitled. All rights reserved.</li>
@@ -268,7 +271,7 @@
 						</div>
 					</section>
 
-			</div>
+			</div> -->
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -278,6 +281,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/btt.js"></script>
 
 	</body>
 </html>
